@@ -1,0 +1,85 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+h1
+{
+    font-size: 55px;
+}
+
+.half-width
+{
+    display: flex;
+    background-repeat: no-repeat;
+}
+.one
+{
+    background-image: url(images/top-banner.png);
+    margin-bottom: 150px;
+}
+
+.has
+{
+    font-size: 44px;
+}
+
+.two
+{
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    margin-bottom: 150px;
+}
+.half-width img
+{
+    width: 100%;
+}
+
+.build-one
+{
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 70px;
+}
+span
+{
+    color: orange;
+}
+
+button
+{
+    background-color: chocolate;
+    background-image: linear-gradient(rgb(251, 255, 0),rgb(255, 187, 0));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.three
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.full
+{
+    color: yellow;
+}
+
+.buks
+{
+    border-radius: 10px;
+    box-shadow:3px 3px 10px rgb(200, 255, 0),5px 5px 15px rgb(30, 0, 165) ;
+    margin-bottom: 150px;
+    border-left: 7px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
+    
+}
+
+footer
+{
+    text-align: center;
+    color: rgb(103, 103, 109);
+}
